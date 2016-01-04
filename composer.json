@@ -1,0 +1,23 @@
+{
+    "name": "cpasimusante/chart-new-bundle",
+    "keywords": ["Claroline", "Plugin"],
+    "description": "ChartNew.js plugin",
+    "homepage": "http://www.claroline.net",
+    "type": "claroline-plugin",
+    "authors": [
+      {
+        "name": "SimUSante",
+        "email": "dechepy.olivier@chu-amiens.fr",
+        "homepage": "http://github.com/CPASimUSante"
+      }
+    ],
+    "license": "GPL-3.0+",
+    "require": {
+        "php": ">=5.4.1",
+        "claroline/core-bundle": "~6.0"
+    },
+    "autoload": {
+        "psr-0": { "CPASimUSante\\ChartNewBundle": "" }
+    },
+    "target-dir": "CPASimUSante/ChartNewBundle"
+}
